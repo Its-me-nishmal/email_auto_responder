@@ -1,0 +1,21 @@
+{
+  "name": "ai-email-responder",
+  "version": "1.0.0",
+  "description": "AI-powered email responder using Gmail API + Google Gemini",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "get-token": "node scripts/get-token.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.5",
+    "googleapis": "^144.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
